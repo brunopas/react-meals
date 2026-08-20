@@ -12,7 +12,7 @@ Order meals from a React cart UI backed by Firebase Realtime Database. Study pro
 
 ## Tech stack
 
-- **Framework:** React 17 (Create React App)
+- **Framework:** React 18 (Create React App)
 - **State management:** React Context API + `useReducer`
 - **Backend:** Firebase Realtime Database (REST)
 - **Styling:** CSS Modules
@@ -21,7 +21,7 @@ See [package.json](./package.json) for full dependency list.
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) >= 14
+- [Node.js](https://nodejs.org/) 18 or later
 - [Git](https://git-scm.com/)
 - A [Firebase](https://firebase.google.com/) project with Realtime Database enabled
 
