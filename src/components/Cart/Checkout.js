@@ -80,7 +80,7 @@ const Checkout = (props) => {
   return (
     <form className={classes.form} onSubmit={confirmHandler}>
       <div className={nameControlClasses}>
-        <label htmlFor="name">Your Name</label>
+        <label htmlFor="name">Your name</label>
         <input ref={nameInputRef} type="text" id="name" />
         {!formInputsValidity.name && <p>Please enter a valid name!</p>}
       </div>
@@ -92,7 +92,7 @@ const Checkout = (props) => {
         )}
       </div>
       <div className={postalCodeControlClasses}>
-        <label htmlFor="postal">Postal Code</label>
+        <label htmlFor="postal">Postal code</label>
         <input ref={postalCodeInputRef} type="text" id="postal" />
         {!formInputsValidity.postalCode && (
           <p>Please enter a valid postal code!</p>
